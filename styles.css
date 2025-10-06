@@ -1,0 +1,88 @@
+body{
+    font-family:"Inter", sans-serif;
+    background: linear-gradient(120deg, #fdfbfb, #ebedee);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 60px;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3em;
+}
+h2 {
+  margin-top: 2em;
+  font-size: 1.5rem;
+}
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid #aaa;
+  padding-left: 1em;
+  margin: 1.5em auto;
+  width: 60%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 8px 0;
+  font-weight: 500;
+}
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
+}
+/* Sticky note section */
+.beliefs {
+  background-color: #f5e6ca; /* warm beige-brown aesthetic */
+  display: inline-block;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-top: 2em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  transform: rotate(-1deg);
+  text-align: left;
+}
+
+/* Small tape effect on top */
+.beliefs::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 50px;
+  height: 18px;
+  background: rgba(120, 100, 80, 0.3);
+  border-radius: 3px;
+}
+
+/* Sticky note heading */
+.beliefs h2 {
+  font-family: "Caveat", cursive;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3c2f2f;
+}
+
+/* List inside the sticky note */
+.beliefs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Caveat", cursive;
+  font-size: 1.1rem;
+  color: #3c2f2f;
+}
+
+.beliefs li {
+  margin: 0.2rem 0;
+  text-align: center;
+}
