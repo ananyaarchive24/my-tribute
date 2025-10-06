@@ -19,3 +19,5 @@ What I learnt
 - Don't give up on technical hurdles - they're annoying and really make you want to give up, but having solved it in the end feels awesome.
 
 thanks for reading :)
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
